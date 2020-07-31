@@ -12,10 +12,6 @@
 		<br /> Versão 5.3
 </h4>
 
-<h2>Saudações</h2>
-<p>O WordPress é um projeto muito especial para mim. Todo desenvolvedor e colaborador acrescenta algo único nessa mistura, e juntos nós criamos algo bonito do qual me orgulho de fazer parte. Milhares de horas foram investidas no WordPress, e nós nos dedicamos a melhorá-lo todos os dias. Obrigado por torná-lo parte de seu mundo.</p>
-<p style="text-align: right">&#8212; Matt Mullenweg</p>
-
 <h2>Como usar</h2>
 <ol>
 	<li>Descompacte o pacote em uma pasta vazia e envie tudo.</li>
