@@ -1,0 +1,100 @@
+/*
+Theme Name:     Kallyas Child Theme
+Theme URI:      http://kallyas.net/demo/
+Description:    Child theme for the Kallyas theme
+Author:         Hogash
+Author URI:     http://themeforest.net/user/hogash
+Template:       kallyas
+Version:        4.0.0
+Tags: dark, light, left-sidebar, right-sidebar, fluid-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, full-width-template, theme-options, translation-ready
+Text Domain:  zn_framework
+*/
+
+/* ################# HEADER #################*/
+header {
+    background-color: #8568AC !important;
+}
+
+.site-header .topnav.social-icons .social-icons-item {
+    font-size: 25px;
+    font-weight: 400;
+    opacity: 1;
+    margin-right: 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+    color: #8568AC !important;
+    padding-top: 5px;
+}
+
+.social-icons-item {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.social-icons.sc--normal .social-icons-item {
+    background-color: #B6D144 !important;
+}
+
+.main-nav.mainnav--active-uline>ul>.menu-item.active>a>span {
+    border-bottom: 2px solid currentColor;
+    padding-bottom: 3px;
+    color: #B6D144 !important;
+}
+
+#sh-component social-icons sc--normal topnav navRight topnav-no-hdnav {
+    weight: 100% !important;
+}
+
+/* ################# SOBRE #################*/
+#image-boxes-img img-responsive {
+    width: 10px !important;
+}
+
+.tbk-symbol--line .tbk__symbol span {
+    width: 180px;
+    height: 4px;
+}
+
+/* ################# NOVIDADES #################*/
+.latest-posts-crs-readon, .latest_posts--4.default-style .latest_posts-readon, .latest_posts--4.kl-style-2 .latest_posts-elm-title, .latest_posts3-post-date, .action_box-text, .recentwork_carousel__link:hover .recentwork_carousel__crsl-title, .recentwork_carousel__link:hover .recentwork_carousel__cat, .stepbox2-box--ok:before, .stepbox2-box--ok:after, .stepbox2-box--ok, .stepbox2-box--ok .stepbox2-title, .kl-ioscaption--style4 .more, .zn-iosSl-caption.zn-iosSl-caption--style4 .zn-iosSl-more, .image-boxes.image-boxes--1 .image-boxes-readon, .acc--style3 .acc-tgg-button:not(.collapsed):before {
+    display: none;
+}
+
+.latest_posts--4.default-style .latest_posts-details {
+    display: none;
+}
+
+.latest_posts--4.default-style .latest_posts-title {
+    font-style: normal;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.element-scheme--light a {
+    color: #8568AC !important;
+}
+
+.element-scheme--light {
+    text-align: center !important;
+}
+
+/* ################# FOOTER #################*/
+.elm-social-icons.sc--clean .elm-sc-icon {
+    background-color: #B6D144 !important;
+}
+
+.eluidf8c8dc5a .sc--clean .elm-sc-icon-1 .elm-sc-icon {
+    margin-left: 10px;
+    color: #8568ac;
+}
+
+.elm-social-icons.sh--rounded .elm-sc-icon {
+    border-radius: 30px;
+}
+
+.elm-social-icons.sc--clean .elm-sc-link:hover .elm-sc-icon {
+    background: #B6D144 !important;
+    box-shadow: none;
+}
